@@ -9,11 +9,22 @@ public class files {
         finally{System.out.println("FILE created.");}
 
         // now writing in this file 
+        // try{
+        // FileWriter fw = new FileWriter(a);
+        // fw.write("Hi this is namit yadav");
+        // fw.close();
+        // }catch(Exception e){}
+        // finally{System.out.println("Written something in the file ");}
+
+        // now reading what is written in a file
         try{
-        FileWriter fw = new FileWriter(a);
-        fw.write("Hi this is namit yadav");
-        fw.close();
+        Scanner sc = new Scanner(a);
+        while(sc.hasNextLine()){
+            String line = sc.nextLine();
+            System.out.println(line);
+        }
         }catch(Exception e){}
-        finally{System.out.println("Written something in the file ");}
+
+        a.delete(); // used for deleting the file 
     }
 }
