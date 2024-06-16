@@ -28,5 +28,6 @@ public class Basics {
         obj.fun();
         obj1.fun();
         
+    
     }
 }
