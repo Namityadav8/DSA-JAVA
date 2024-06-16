@@ -20,7 +20,7 @@ public class Basics {
         // System.out.println("Enter your string");
         // String b = sc.nextLine();
         // a aa = (String a)->{
-        //     System.out.println("HELLO MF "+a);
+        //     System.out.println("HELLO  "+a);
         // };
         // aa.fun(b);
         a obj = new a();
