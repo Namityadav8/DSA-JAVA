@@ -23,11 +23,12 @@ public class Basics {
         //     System.out.println("HELLO  "+a);
         // };
         // aa.fun(b);
-        a obj = new a();
-        a.b obj1 = obj.new b();
-        obj.fun();
-        obj1.fun();
-        
+        // a obj = new a();
+        // a.b obj1 = obj.new b();
+        // obj.fun();
+        // obj1.fun();
+        String a = "akm";
     
+        System.out.println(b);
     }
 }
