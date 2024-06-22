@@ -1,9 +1,6 @@
 import java.util.*;
 
 
-
-
-
 class a<T>{
     
     public T fun(T b){
