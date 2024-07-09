@@ -8,6 +8,7 @@ class a<T>{
         return b;
     }
 }
+
 public class getset {
     public static void main(String[] args) {
        a<Integer> obj = new a<>();
