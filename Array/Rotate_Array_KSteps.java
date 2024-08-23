@@ -23,7 +23,7 @@ public class Rotate_Array_KSteps {
         for(int i=0;i<ans.length;i++){
             System.out.println(ans[i]);
         }
-        
+            
         
     }
     public static void main(String[] args) {
