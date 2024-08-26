@@ -6,7 +6,7 @@ public class TwoD_Sum {
         int b[][]=new int[3][3];
 
         int sum[][]=new int[3][3];
-
+        // just make sure first that size of a and b is equal 
         for(int i=0;i<sum.length;i++){
             for(int j=0;j<sum[i].length;j++){
                 sum[i][j]=a[i][j] + b[i][j];
