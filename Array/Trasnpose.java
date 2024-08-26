@@ -24,7 +24,9 @@ public class Trasnpose {
             }
         }
 
-        System.out.println("Transposed array : ");
+        System.out.println("Transposed array :");
+
+        
         for(int i=0;i<b.length;i++){
             for(int j=0;j<b[i].length;j++){
                 System.out.print(b[i][j]+" ");
