@@ -1,28 +1,26 @@
 package Sorting;
 
-
+/**
+ * InsertionSort
+ */
 public class InsertionSort {
-
-    static void sorting(int a[]){
+    static void sorting(int[]a){
         int n =a.length;
-        for(int i=1;i<a.length;i++){
+        for(int i=1;i<n;i++){
             int j =i;
             while(j>0 && a[j]<a[j-1]){
-                int temp=a[j];
-                a[j] = a[j-1];
-                a[j-1] = temp;
+                int temp = a[j];
+                a[j]=a[j-1];
+                a[j-1]=temp;
                 j--;
             }
         }
-
-
     }
-
     public static void main(String[] args) {
-        int a[]={8,3,6,5,4,2};
-        sorting(a);
-        for(int i=0;i<a.length-1;i++){    
-            System.out.println(a[i]);
+        int b[]={3,2,4,7,6,8};
+        sorting(b);
+        for(int i=0;i<b.length;i++){
+            System.out.println(b[i]);
         }
     }
 }
