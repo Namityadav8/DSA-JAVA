@@ -1,7 +1,7 @@
 // Move all Zeroes together maintaining relative order of rest of the elements 
 // I/P 050342  O/P 534200
 
-package Sorting;
+
 
 
 public class Questions {
