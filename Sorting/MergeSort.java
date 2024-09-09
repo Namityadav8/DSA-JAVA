@@ -10,12 +10,14 @@ public class MergeSort {
         int[] left = new int[n1];
         int[] right = new int[n2];
         int i, j, k;
-        for(i = 0; i < n1; i++) left[i] = arr[l+i];
-        for(j = 0; j < n2; j++) right[j] = arr[mid+1+j];
+        for(i = 0; i < n1; i++) left[i] = arr[l+i]; // we consider l bcz all time l is not 0
+        for(j = 0; j < n2; j++) right[j] = arr[mid+1+j];  // this is filling of new array from the past two arrays
         i = 0;
         j = 0;
         k = l;
-        while(i < n1 && j < n2){
+
+
+        while(i <= n1 && j <= n2){
             if(left[i] < right[j])
                 arr[k++] = left[i++];
             else
@@ -31,7 +33,7 @@ public class MergeSort {
         int mid = (l+r)/2;
         mergeSort(arr, l, mid);
         mergeSort(arr, mid+1, r);
-        merge(arr, l, mid, r);
+        merge(arr, l, mid, r);  //used to merge the two sorted subarrays
     }
 
     public static void main(String[] args) {
