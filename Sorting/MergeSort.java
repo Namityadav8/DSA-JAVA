@@ -17,6 +17,7 @@ public class MergeSort {
         k = l;
 
 
+        
         while(i <= n1 && j <= n2){
             
             if(left[i] < right[j])
