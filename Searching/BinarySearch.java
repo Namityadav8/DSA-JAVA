@@ -13,6 +13,7 @@ public class BinarySearch {
             if(target==a[mid]){
                 return true;
             }
+            
             else if(target<a[mid]){
                 end = mid -1;
             }
