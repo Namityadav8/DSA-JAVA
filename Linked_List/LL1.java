@@ -1,0 +1,29 @@
+package Linked_List;
+import java.util.*;
+
+
+public class LL1 {
+    public static class node{
+        int data ;
+        node next;
+
+        node(int dataa){
+            this.data = dataa;
+        }
+    }
+    public static void main(String args[]){
+        node a = new node(3);
+        node b = new node(2);        
+        node c = new node(5);
+        
+        a.next=b;  // a is linked to b
+        b.next=c;  // b is linked to c 
+        System.out.println(a.data);
+        System.out.println(a.next.data);
+
+
+
+        
+        
+    }
+}
