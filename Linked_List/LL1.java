@@ -16,7 +16,7 @@ public class LL1 {
         node b = new node(2);        
         node c = new node(5);
         
-        a.next=b;  // a is linked to b
+        a.next=b;  // a is linked to b  b's address gets stored in the address variable of a node
         b.next=c;  // b is linked to c 
         // System.out.println(a.data);
         // System.out.println(a.next.data);
