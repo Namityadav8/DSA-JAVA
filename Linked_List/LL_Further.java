@@ -23,9 +23,11 @@ public class LL_Further {
         node c = new node(20);
         node d = new node(30);
         node e = new node(40);
-        displayr(a);
+        // displayr(a);
         //linking to each other
         a.next = b;
         b.next=c;
+        System.out.println(a.next.data);
+        System.out.println(b);
     }
 }
