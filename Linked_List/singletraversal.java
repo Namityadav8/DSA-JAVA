@@ -28,7 +28,7 @@ public class singletraversal {
         
 
         node a = new node(20);
-        node b = new node(25);
+        node b = new node(25);   
         node c = new node(30);
         node d = new node(35);
         node e = new node(40);
