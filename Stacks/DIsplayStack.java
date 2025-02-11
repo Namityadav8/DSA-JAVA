@@ -13,16 +13,17 @@ public class DIsplayStack {
 
         int n = st.size();
         int a[] = new int[n];
-        for(int i=0;i<n;i++){
-            a[i]=st.pop();
-            
+
+        for (int i = 0; i < n; i++) {
+            a[i] = st.pop();
         }
-        System.out.println(st);
-        System.out.println("Printing the correct form of the Stack :");
-        for(int i=n-1;i>=0;i--){
+
+        System.out.println("Printing the correct form of the Stack:");
+        for (int i = n - 1; i >= 0; i--) {
             st.push(a[i]);
             System.out.print(a[i] + " ");
         }
+
         System.out.println();
         System.out.println(st);
     }
