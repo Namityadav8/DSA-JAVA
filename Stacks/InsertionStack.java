@@ -12,7 +12,7 @@ public class InsertionStack {
         st.push(20);
         System.out.println(st);
         Stack<Integer> temp = new Stack<>();
-        int idx = 1;
+        int idx = 0;
         int val = 69;
         while(st.size()>idx){
             temp.push(st.pop());
