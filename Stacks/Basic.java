@@ -9,8 +9,8 @@ public class Basic {
         st.push(4);
         st.push(6);
         System.out.println(st);
-        System.out.println(st.pop());
-        System.out.println(st.getClass());
-        System.out.println(st.isEmpty());
+    //     System.out.println(st.pop());
+    //     System.out.println(st.getClass());
+    //     System.out.println(st.isEmpty());
     }
 }
