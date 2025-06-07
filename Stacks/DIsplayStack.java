@@ -7,12 +7,16 @@ public class DIsplayStack {
         Stack<Integer> st = new Stack<>();
         st.push(1);
         st.push(12);
+
         st.push(10);
+
+
         st.push(74);
         st.push(100);
 
         int n = st.size();
         int a[] = new int[n];
+        
 
         for (int i = 0; i < n; i++) {
             a[i] = st.pop();
@@ -28,3 +32,5 @@ public class DIsplayStack {
         System.out.println(st);
     }
 }
+
+
