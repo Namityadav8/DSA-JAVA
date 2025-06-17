@@ -23,7 +23,7 @@ public class LL1 {
         System.out.println(a.next);
         System.out.println(b);
 
-
+ 
 
         //displaying the values of the linked list if head is given
         // System.out.println("Displaying the linked list :");

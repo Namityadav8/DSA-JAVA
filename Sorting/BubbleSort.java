@@ -21,7 +21,7 @@ public class BubbleSort {
 
     public static void main(String[] args) {
         
-        int a[] = {3,4,2,5,1};
+        int a[] = {3,4,2,5,1,10};
         int b[] = BubbleSort1(a);
         for(int i : b){
             System.out.println(i);
